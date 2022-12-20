@@ -26,8 +26,5 @@ public class SoundOfAnimals {
         }
     }
 
-    public static void main(String[] args) {
 
-        SoundOfAnimals.soundOfAnimal("dog.mp3");
-    }
 }

@@ -6,10 +6,9 @@ public class AnimalYard {
     private void addAnimals() {
         animalSetInTheYard[0]= new Dog();
         animalSetInTheYard[1]= new Cat();
-        animalSetInTheYard[2]= new Cat();
-        animalSetInTheYard[3]= new Cow();
-        animalSetInTheYard[4]= new Cow();
-        animalSetInTheYard[5]= new Donkey();
+        animalSetInTheYard[2]= new Cow();
+        animalSetInTheYard[3]= new Donkey();
+        animalSetInTheYard[4]=new Monkey();
     }
 
     private void playAnimalSounds() {
@@ -18,6 +17,7 @@ public class AnimalYard {
             if(animalSetInTheYard[i]!=null) {
                 animalSetInTheYard[i].move();
                 animalSetInTheYard[i].sound();
+
             }
         }
 
